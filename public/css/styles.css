@@ -1,0 +1,285 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 12px;
+}
+
+div.top-header {
+    padding: 5%;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+header div.logo {
+    width: 50%;
+}
+
+header div.logo {
+    padding: 10px;
+}
+
+header nav {
+    font-size: 12px;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* .ocultar,
+.borrar {
+    display: none;
+} */
+
+header .form .input {
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    width: 50%;
+}
+
+header .form .submit {
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 5%;
+}
+
+header div.top-header p {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logueo,
+.ocultar {
+    margin-top: 10px;
+    display: none;
+}
+
+div.burger-menu {
+    text-align: center;
+}
+
+div.burger-menu i {
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+
+article div.main-article {
+    width: 100%;
+    border-top: 2px solid #ebebeb;
+    padding: 15px;
+}
+
+div.last-visit,
+div.offers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price {
+    font-size: 18px;
+    display: inline;
+
+}
+
+.discount,
+.description {
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+h3,
+.description {
+    color: #666;
+}
+
+section.banner img {
+    width: 100%;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+
+main section article {
+    background-color: #fff;
+    margin: 10px 0px;
+}
+
+main section article img {
+    width: 100%;
+}
+
+main section article i {
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+
+}
+
+.discount {
+    color: #39b54a;
+    display: inline;
+    padding: 5px;
+}
+
+footer {
+    background-color: #FFF;
+    width: 90%;
+    margin: auto;
+}
+
+footer i {
+    font-size: 2em;
+    color: blue;
+
+}
+
+.icon-option {
+    color: #39b54a;
+}
+
+.centrar {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+footer p {
+    color: #666;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.title-center {
+    text-align: center;
+    color: #666;
+}
+
+.options-footer {
+    margin-bottom: 10px;
+
+}
+
+article div.main-article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+
+@media (min-width: 361px) {
+
+
+    .alinear {
+        display: flex;
+        flex-direction: row;
+        background-color: #666;
+    }
+    .mostrar-izq {
+       display: flex;
+    }
+    .bloque-1 {
+        display: flex;
+    }
+    .bloque-1 ul li {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .mostrar-der {
+        display: flex;
+    }
+    .bloque-2 {
+        display: flex;
+        background-color: #0044AA;
+        align-content: space-between;
+    }
+
+    .bloque-2 ul li {
+        display: inline-block;
+        padding: 10px;
+        align-content: flex-end;
+    }
+    .borrar {
+        display: block;
+    }
+
+    main section article .description {
+        display: block;
+    }
+
+    main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section div.products {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    main section div.products article {
+        width: 45%;
+    }
+
+    .borrar-burguer {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+
+    main section div.products article {
+        width: 22%;
+    }
+}
